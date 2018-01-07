@@ -1,0 +1,34 @@
+{
+  "name": "iheartradio",
+  "version": "1.0.0",
+  "description": "Get information from IHeartRadio's Website about stations and possibly more in the future.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireController1847/node-iheartradio.git"
+  },
+  "keywords": [
+    "iheart",
+    "iheartradio",
+    "icy",
+    "streams",
+    "ihstreams",
+    "iheartlivestreams",
+    "iheartstreams"
+  ],
+  "author": "FireController#1847",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FireController1847/node-iheartradio/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/FireController1847/node-iheartradio#readme",
+  "dependencies": {
+    "snekfetch": "^3.6.1"
+  }
+}
