@@ -27,9 +27,10 @@ ihr.getStreamInfo(46356280).then(album => {
 ```
 
 # Options
+All options are included in one object found in the example at the bottom.
 ## URL Options
-- `secure` - Changes from https to http.
-## Stream Options
+- `secure#boolean` - Changes from https to http.
+## Query Options
 ### getAlbumInfo
 - As of right now there are no known queries.
 ### getSteamInfo
@@ -49,6 +50,7 @@ ihr.getStreamInfo(46356280).then(album => {
 ```js
 const ihr = require("iheartradio");
 ihr.search("99", {
+  "secure": false,
   "maxRows": 25, 
   "bundle": false,
   "station": true,
