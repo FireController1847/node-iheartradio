@@ -1,6 +1,6 @@
 {
   "name": "iheartradio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get information from IHeartRadio's Website about stations and possibly more in the future.",
   "main": "./src/index.js",
   "scripts": {
